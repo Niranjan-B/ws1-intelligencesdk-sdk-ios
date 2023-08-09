@@ -1,0 +1,1 @@
+# ws1-intelligencesdk-sdk-ios
