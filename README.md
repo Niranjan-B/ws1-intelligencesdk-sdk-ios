@@ -1,1 +1,1 @@
-# ws1-intelligencesdk-sdk-ios
+# README
