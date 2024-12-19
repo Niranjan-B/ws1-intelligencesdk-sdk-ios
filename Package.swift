@@ -2,7 +2,7 @@
 
 //
 //  Package.swift
-//  WS1IntelligenceSDK
+//  Workspace ONE Intelligence SDK
 //
 //  Copyright (c) 2023 Omnissa, LLC. All rights reserved.
 //  This product is protected by copyright and intellectual property laws in the
@@ -21,7 +21,7 @@ let package = Package(
             targets: ["WS1IntelligenceSDK"]),
     ],
     targets: [
-        .binaryTarget(name: "WS1IntelligenceSDK", url: "https://github.com/euc-releases/ws1-intelligencesdk-sdk-ios/releases/download/24.8.0/WS1IntelligenceSDK.xcframework.zip", checksum:"62f38368e74c9511a28af3fed7e3985727da6c85fa2c0a6f086c25948844dc88")
+        .binaryTarget(name: "WS1IntelligenceSDK", url: "https://github.com/euc-releases/ws1-intelligencesdk-sdk-ios/releases/download/24.11.0/WS1IntelligenceSDK.xcframework.zip", checksum:"ac34767cb221f7c31d8ab6b986921525992baba95cbcdbe08557f1aed3033fd5")
     ]
 )
 
