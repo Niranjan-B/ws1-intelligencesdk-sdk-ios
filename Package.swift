@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.7
 
 //
 //  Package.swift
@@ -14,14 +14,14 @@ import PackageDescription
 
 let package = Package(
     name: "WS1IntelligenceSDK",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v16)],
     products: [
         .library(
             name: "WS1IntelligenceSDK",
             targets: ["WS1IntelligenceSDK"]),
     ],
     targets: [
-        .binaryTarget(name: "WS1IntelligenceSDK", url: "https://github.com/euc-releases/ws1-intelligencesdk-sdk-ios/releases/download/24.11.0/WS1IntelligenceSDK.xcframework.zip", checksum:"ac34767cb221f7c31d8ab6b986921525992baba95cbcdbe08557f1aed3033fd5")
+        .binaryTarget(name: "WS1IntelligenceSDK", url: "https://github.com/euc-releases/ws1-intelligencesdk-sdk-ios/releases/download/25.1.0/WS1IntelligenceSDK.xcframework.zip", checksum:"7eee30300725261d72201ba6b34dd1b3cc96e6f69ac58a8bc310e34432fa5a37")
     ]
 )
 
