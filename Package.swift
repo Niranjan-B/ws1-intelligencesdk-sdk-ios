@@ -21,7 +21,7 @@ let package = Package(
             targets: ["WS1IntelligenceSDK"]),
     ],
     targets: [
-        .binaryTarget(name: "WS1IntelligenceSDK", url: "https://github.com/euc-releases/ws1-intelligencesdk-sdk-ios/releases/download/25.1.1/WS1IntelligenceSDK.xcframework.zip", checksum:"837315e3aff93844e90ea0af14b625ffa53ef3638696b989871199d104a7731c")
+        .binaryTarget(name: "WS1IntelligenceSDK", url: "https://github.com/euc-releases/ws1-intelligencesdk-sdk-ios/releases/download/25.1.2/WS1IntelligenceSDK.xcframework.zip", checksum:"26a425cdab808751e8562ce907af6d86ec48944bebcfe44c6a874a35b92ae3c7")
     ]
 )
 
